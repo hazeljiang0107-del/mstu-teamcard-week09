@@ -1,0 +1,151 @@
+:root {
+  --bg: #ffd25a;
+  --ink: #2b2410;
+  --card: #fffaf0;
+  --accent: #a8780f;
+  --muted: #6b5e3c;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  background: var(--bg);
+  color: var(--ink);
+  font-family: "Space Mono", ui-monospace, monospace;
+  padding: 48px 24px;
+}
+
+.intro {
+  max-width: 1080px;
+  margin: 0 auto 32px;
+}
+
+.eyebrow {
+  margin: 0 0 8px;
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+}
+
+h1 {
+  margin: 0;
+  font-family: "Fraunces", Georgia, serif;
+  font-weight: 800;
+  font-size: clamp(2.5rem, 6vw, 4rem);
+  line-height: 1;
+}
+
+.tagline {
+  margin: 12px 0 0;
+  font-size: 0.9rem;
+}
+
+.cards {
+  max-width: 1080px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  gap: 24px;
+}
+
+.card {
+  background: var(--card);
+  border-radius: 14px;
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 6px 0 rgba(43, 36, 16, 0.12);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 10px 0 rgba(43, 36, 16, 0.14);
+}
+
+.card-bar {
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.7rem;
+  color: var(--accent);
+  margin-bottom: 12px;
+}
+
+.card-image {
+  background: var(--card-tint, #eee);
+  border-radius: 10px;
+  aspect-ratio: 4 / 3;
+  display: grid;
+  place-items: center;
+  overflow: hidden;
+}
+
+.card-image img {
+  width: 70%;
+  height: 70%;
+  object-fit: contain;
+}
+
+.card-name {
+  margin: 16px 0 4px;
+  font-family: "Fraunces", Georgia, serif;
+  font-weight: 600;
+  font-size: 1.35rem;
+}
+
+.card-major {
+  margin: 0 0 16px;
+  font-size: 0.75rem;
+  color: var(--muted);
+}
+
+.fact-button {
+  font: inherit;
+  font-size: 0.8rem;
+  font-weight: 700;
+  color: #fff;
+  background: var(--accent);
+  border: none;
+  border-radius: 999px;
+  padding: 10px 16px;
+  cursor: pointer;
+  transition: background 0.2s ease;
+}
+
+.fact-button:hover,
+.fact-button:focus-visible {
+  background: #8a6209;
+}
+
+.fun-fact {
+  margin: 12px 0 0;
+  padding: 12px;
+  border-left: 3px solid var(--accent);
+  background: #fff3cf;
+  font-size: 0.8rem;
+  line-height: 1.5;
+}
+
+.card-tags {
+  list-style: none;
+  margin: auto 0 0;
+  padding: 16px 0 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px 12px;
+  font-size: 0.65rem;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: var(--muted);
+}
+
+.footer {
+  max-width: 1080px;
+  margin: 40px auto 0;
+  font-size: 0.75rem;
+  color: var(--muted);
+}
