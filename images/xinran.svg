@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 315" role="img" aria-labelledby="title desc">
+  <title id="title">Learning and technology illustration</title>
+  <desc id="desc">An open book with a small glowing computer screen and a star.</desc>
+  <rect width="420" height="315" rx="28" fill="#e5dcf3"/>
+  <circle cx="322" cy="70" r="32" fill="#f4c75c" opacity=".7"/>
+  <path d="M92 221c42-28 84-28 118 0v39c-36-23-78-23-118 0z" fill="#fffaf0" stroke="#5f4b7a" stroke-width="8" stroke-linejoin="round"/>
+  <path d="M210 221c34-28 76-28 118 0v39c-40-23-82-23-118 0z" fill="#fffaf0" stroke="#5f4b7a" stroke-width="8" stroke-linejoin="round"/>
+  <path d="M210 221v39" stroke="#5f4b7a" stroke-width="8" stroke-linecap="round"/>
+  <rect x="157" y="86" width="106" height="88" rx="10" fill="#5f4b7a"/>
+  <rect x="168" y="97" width="84" height="56" rx="4" fill="#bfe7dd"/>
+  <path d="M138 185h144" stroke="#5f4b7a" stroke-width="12" stroke-linecap="round"/>
+  <path d="m294 128 8 18 19 2-14 13 4 19-17-10-17 10 4-19-14-13 19-2z" fill="#f4c75c"/>
+  <path d="M128 79v20M118 89h20" stroke="#b27d19" stroke-width="8" stroke-linecap="round"/>
+</svg>
